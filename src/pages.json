@@ -1,0 +1,20 @@
+{
+  "globalStyle": {
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "We仙财",
+    "navigationBarBackgroundColor": "#1798d9",
+    "backgroundColor": "#81f8f1"
+  },
+  "pages": [
+    {
+      "path": "pages/index",
+    }
+  ],
+  "easycom":{
+    "autoscan": true,
+    "custom":{
+      "^tm-(.*)": "~/tmui/components/tm-$1/tm-$1.vue"
+    }
+  }
+}

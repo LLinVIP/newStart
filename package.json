@@ -1,0 +1,42 @@
+{
+  "name": "starter-uni",
+  "version": "0.1.0",
+  "scripts": {
+    "dev:custom": "uni -p",
+    "dev:h5": "uni",
+    "dev:h5:ssr": "uni --ssr",
+    "dev:mp-qq": "uni -p mp-qq",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:custom": "uni build -p",
+    "build:h5": "uni build",
+    "build:h5:ssr": "uni build --ssr",
+    "build:mp-qq": "uni build -p mp-qq",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0-alpha-3050220220719003",
+    "@dcloudio/uni-components": "^3.0.0-alpha-3041320220527004",
+    "@dcloudio/uni-h5": "^3.0.0-alpha-3041320220527004",
+    "@dcloudio/uni-mp-qq": "^3.0.0-alpha-3041320220527004",
+    "@dcloudio/uni-mp-weixin": "^3.0.0-alpha-3050220220719003",
+    "@iconify/json": "^2.1.81",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.16",
+    "vue": "^3.2.37",
+    "vue-demi": "^0.13.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@dcloudio/types": "^3.0.8",
+    "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3041520220609002",
+    "@types/lodash-es": "^4.17.6",
+    "@types/node": "^18.0.6",
+    "eslint": "^8.20.0",
+    "postcss": "^8.4.14",
+    "typescript": "^4.7.4",
+    "unocss": "^0.44.3",
+    "unocss-preset-uni": "^0.1.5",
+    "unplugin-auto-import": "^0.9.2",
+    "vite": "^2.9.14"
+  }
+}
